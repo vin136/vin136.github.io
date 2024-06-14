@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2020-05-05">
+<meta name="description" content="Pointers for the ambitious.">
 
-<title>Blog – Vinay Varma</title>
+<title>Thoughts on Building Things – Vinay Varma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,77 +70,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Vinay Varma</span>
     </a>
   </div>
@@ -157,11 +99,11 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./home.html"> 
+    <a class="nav-link" href="../../home.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -173,108 +115,134 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Thoughts on Building Things</h1>
+                  <div>
+        <div class="description">
+          <p>Pointers for the ambitious.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Entrepreneurship</div>
+                <div class="quarto-category">Self-empowerment</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 5, 2020</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Entrepreneurship">Entrepreneurship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Self-empowerment">Self-empowerment <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#start-early-start-now" id="toc-start-early-start-now" class="nav-link active" data-scroll-target="#start-early-start-now">Start early, start now</a></li>
+  <li><a href="#intensity-at-will" id="toc-intensity-at-will" class="nav-link" data-scroll-target="#intensity-at-will">Intensity, at will</a></li>
+  <li><a href="#nobody-to-please" id="toc-nobody-to-please" class="nav-link" data-scroll-target="#nobody-to-please">Nobody to please</a></li>
+  <li><a href="#create-a-routine" id="toc-create-a-routine" class="nav-link" data-scroll-target="#create-a-routine">Create a routine</a></li>
+  <li><a href="#the-most-important-thing" id="toc-the-most-important-thing" class="nav-link" data-scroll-target="#the-most-important-thing">The most important thing</a></li>
+  <li><a href="#on-work" id="toc-on-work" class="nav-link" data-scroll-target="#on-work">On work</a></li>
+  <li><a href="#luck" id="toc-luck" class="nav-link" data-scroll-target="#luck">Luck</a></li>
+  <li><a href="#consistency" id="toc-consistency" class="nav-link" data-scroll-target="#consistency">Consistency</a></li>
+  <li><a href="#progress" id="toc-progress" class="nav-link" data-scroll-target="#progress">Progress</a></li>
+  <li><a href="#hard-work" id="toc-hard-work" class="nav-link" data-scroll-target="#hard-work">Hard Work</a></li>
+  <li><a href="#every-day" id="toc-every-day" class="nav-link" data-scroll-target="#every-day">Every Day</a></li>
+  <li><a href="#fear-is-good" id="toc-fear-is-good" class="nav-link" data-scroll-target="#fear-is-good">Fear is good</a></li>
+  <li><a href="#copying-ideas" id="toc-copying-ideas" class="nav-link" data-scroll-target="#copying-ideas">Copying Ideas</a></li>
+  <li><a href="#little-by-little" id="toc-little-by-little" class="nav-link" data-scroll-target="#little-by-little">Little by little</a></li>
+  <li><a href="#attention" id="toc-attention" class="nav-link" data-scroll-target="#attention">Attention</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="start-early-start-now" class="level2">
+<h2 class="anchored" data-anchor-id="start-early-start-now">Start early, start now</h2>
+<p>Start early. Wherever you are, now is the time. Those who made it might not tell you but luck is a big factor. The earlier you start, the more can you fail. It’s an odd’s game. Don’t be fooled by the myth of ‘Genius’ nor the ‘Hard work’. Cowards subscribe for ‘the genius’ while the winners and aspiring ones go for ‘the ‘Hard work’.Both are overly result-oriented. Planning for the worst and giving your all is the name of the game. And having time on your side lets you play it for a tad longer. Start now.</p>
+</section>
+<section id="intensity-at-will" class="level2">
+<h2 class="anchored" data-anchor-id="intensity-at-will">Intensity, at will</h2>
+<p>Spend some time with yourself. Remove all the distractions – thoughts, compulsions. Cultivating a craft where you can be completely absorbed, will open up a new dimension. When you remove distractions, life intensifies. This percolates into all areas of life. You will become capable of intensity, at will.</p>
+</section>
+<section id="nobody-to-please" class="level2">
+<h2 class="anchored" data-anchor-id="nobody-to-please">Nobody to please</h2>
+<p>Learn to disagree. Compulsively worrying to satisfy and please others at the stake of personal wellbeing is a pathological condition. Being spiteful and nasty is not an option. But, not negotiating for your well-being is pathetic. Over time, the effects percolate. Personal beliefs are altered to fit the reality. True capacities are shunned and never realized. Agreeable people are paid less. Their position in social hierarchy remains mediocre. There is no moral obligation to please anybody.</p>
+</section>
+<section id="create-a-routine" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-routine">Create a routine</h2>
+<p>Create a routine. Else you will be put in one. Exercise your freedom to choose what you want to do. Repeating the same steps every day is the only way to gain mastery. It is by building this reservoir of work you can sustainably stick with it. This is your ticket to freedom. Uncommitted become the slaves of norms. They will always be struggling to escape, always at odds with reality. start with your body. Have an exercise routine that can be maintained. Next, Work. Choose what you want more of and create a routine around it. Do not be tempted to fit too much here. Slowly you will develop expertise and confidence that will let you do more of it.</p>
+</section>
+<section id="the-most-important-thing" class="level2">
+<h2 class="anchored" data-anchor-id="the-most-important-thing">The most important thing</h2>
+<p>Cultivate the ability to break-down complex problems into simpler ones. This is the meta-skill that translates into greatness in every field. Accomplishing ridiculously difficult tasks demands the ability to visualize the composing sub-tasks and formulate daily routines around them. On any day, there should always be one thing that takes your complete attention, irrespective of the breadth of the project. As an entrepreneur, your sole responsibility is to answer what is the most important thing, now ?</p>
+</section>
+<section id="on-work" class="level2">
+<h2 class="anchored" data-anchor-id="on-work">On work</h2>
+<p>Selling time for money is addictive. It nullifies the odds of accumulating wealth. It makes one blind to possibilities, incapable of imaging the power of leverage. Aspiring entrepreneurs should never work for money. They should actively avoid fixed pay contracts. Only under the circumstance of receiving rare skill, knowledge can they transact their time. Actively seek mild discomfort. Once succumbed to the safety of a job, anything creative sounds dangerous and implausible. The closer you can be to the creative process, the better. For employment, Startups are the best bet. Manipulating your environment is the most direct way of influencing outcomes. Under no circumstance, your time should be spent away from the creative process. There are always better options.</p>
+</section>
+<section id="luck" class="level2">
+<h2 class="anchored" data-anchor-id="luck">Luck</h2>
+<p>There is a controllable element to what people refer to as Luck – being in the right place at the right time. Depending upon what you want to do, there are great places(people) around the world. Anything that can structurally avoid complacency, is a great choice. We should look for as much discomfort as possible and the most sensible way is to place yourself in a hard place with hard people.</p>
+</section>
+<section id="consistency" class="level2">
+<h2 class="anchored" data-anchor-id="consistency">Consistency</h2>
+<p>Don’t directly rush into doing something. Take some time and put some labor to find out why you want to create something. Only when you are clear on Why proceed further. The next important question is what you can do right now to get a bit closer? Daily commitments should be so simple that they sound laughably easy.This ensures momentum, as we achieve them daily. We are not naturally good at forecasting the cumulative effects of simple habits. The key to accomplishing ridiculously difficult tasks is consistency, not the quantum of work done on a day.</p>
+</section>
+<section id="progress" class="level2">
+<h2 class="anchored" data-anchor-id="progress">Progress</h2>
+<p>Clarity of what you want in the long term is absolutely crucial. Define it. Take some time and write it down. Yes, it might evolve. But you should have a clear understanding of the essence. Ask specific questions like How do you want your day to be? How does your ideal work environment look like? How does your relationships, health, financials look like? Create a practice to develop deeper understanding of your longings? Only with clarity of vision can there be a possibility of progress.</p>
+</section>
+<section id="hard-work" class="level2">
+<h2 class="anchored" data-anchor-id="hard-work">Hard Work</h2>
+<p>Working more hours is not hard work. Putting your heart to create something is not hard work. Constantly stretching your capabilities is not hard work. Taking responsibility is not hard work. Working for the paycheck, bearing and accepting the inanity of your work, waiting for the weekend, passing through life without intensity is Hard Work.</p>
+</section>
+<section id="every-day" class="level2">
+<h2 class="anchored" data-anchor-id="every-day">Every Day</h2>
+<p>Focus on what you are doing every day. Start with the smallest change that can be incorporated into your routine. Now stick to it every day. This is the secret of accomplishing impossibly difficult tasks. Focus on the routines and habits. Nothing more is needed.</p>
+</section>
+<section id="fear-is-good" class="level2">
+<h2 class="anchored" data-anchor-id="fear-is-good">Fear is good</h2>
+<p>When you are starting something new, the fear of failure is often useful. This forces you to focus on risk. Being able to use this fear to ask the right questions, to strategies and come up with novel ideas is the defining skill of a successful entrepreneur. In the right proportions, it illuminates threats, directs the energies. Fear is good.</p>
+</section>
+<section id="copying-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="copying-ideas">Copying Ideas</h2>
+<p>Don’t get lost in the “next big idea” fallacy. There are two practical ways to come up with successful business ideas. Look for the problems you are facing or Copy from the solutions other entrepreneurs successfully implemented. The first category involves listing down all the activities in your day while thinking how each one of them can be made better. Now, once you choose a few, write down how much you are willing to pay and the kind of service or the product you want. If an idea filters through this process successfully, it can be considered further. Don’t fool yourself here,if you aren’t willing to pay chances are nobody will. The second category is much simpler. Choose an industry. (better you already got some idea about it.).Now find out what’s happening within it in other countries. Read their magazines, news sites, etc. Now the question boils down to, What successful business products and models can you take inspiration from? Yes, that’s called copying ideas. Hopefully, you are doing all this to create some value, not justify your genius.</p>
+</section>
+<section id="little-by-little" class="level2">
+<h2 class="anchored" data-anchor-id="little-by-little">Little by little</h2>
+<p>We lack the ability to foresee the effects of small changes accumulated over time. Habits are remarkable ways to leverage the power of compounding. Introspect how your daily time is spent. Add or substitute a habit at a time. There is no hurry. This is a long term game. Keep the changes to absolute minimum.In the initial stages, momentum is the key. Whatever your ideal time or effort, reduce it by half – this should be your initial commitment. When creating habits, setting ridiculously easy goals so that it’s impossible to fail is the key. Consider any extra effort put as the bonus and feel great about it. Little by little your life will be transformed.</p>
+</section>
+<section id="attention" class="level2">
+<h2 class="anchored" data-anchor-id="attention">Attention</h2>
+<p>Attention is limited. Any practice or technique that allows you to direct your energies will have a compounding effect on your life. Measure your day by how much of it is intentional. There are always people and things constantly attempting to grab your attention – the News, Internet, fancy toys. It’s a skill that can be trained.</p>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Entrepreneurship,Self-empowerment" data-listing-date-sort="1588654800000" data-listing-file-modified-sort="1718402820079" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1320">
-<div class="thumbnail">
-<p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a></p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">Thoughts on Building Things</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Entrepreneurship'); return false;">
-Entrepreneurship
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">Pointers for the ambitious. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">
-<div class="listing-date">
-May 5, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Self-empowerment" data-listing-date-sort="1588654800000" data-listing-file-modified-sort="1718402722786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="848">
-<div class="thumbnail">
-<p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a></p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">Think on these.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">Intention and expectation are two different animals. Intention is pure, free of the chains of outcome. Expectation drags you into the drama of life, making you a slave to…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">
-<div class="listing-date">
-May 5, 2020
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

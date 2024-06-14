@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2020-05-05">
 
-<title>Blog – Vinay Varma</title>
+<title>Think on these. – Vinay Varma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Vinay Varma</span>
     </a>
   </div>
@@ -157,11 +98,11 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./home.html"> 
+    <a class="nav-link" href="../../home.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
@@ -173,108 +114,138 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Think on these.</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Self-empowerment</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 5, 2020</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Entrepreneurship">Entrepreneurship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Self-empowerment">Self-empowerment <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#intention-vs-expectation" id="toc-intention-vs-expectation" class="nav-link active" data-scroll-target="#intention-vs-expectation">Intention vs Expectation</a></li>
+  <li><a href="#well-being" id="toc-well-being" class="nav-link" data-scroll-target="#well-being">Well-being</a></li>
+  <li><a href="#beyond-chatter" id="toc-beyond-chatter" class="nav-link" data-scroll-target="#beyond-chatter">Beyond Chatter</a></li>
+  <li><a href="#inner-exploration" id="toc-inner-exploration" class="nav-link" data-scroll-target="#inner-exploration">Inner Exploration</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#on-impermanence" id="toc-on-impermanence" class="nav-link" data-scroll-target="#on-impermanence">On Impermanence</a></li>
+  <li><a href="#on-happiness" id="toc-on-happiness" class="nav-link" data-scroll-target="#on-happiness">On Happiness</a></li>
+  <li><a href="#on-love" id="toc-on-love" class="nav-link" data-scroll-target="#on-love">On Love</a></li>
+  <li><a href="#on-education" id="toc-on-education" class="nav-link" data-scroll-target="#on-education">On Education</a></li>
+  <li><a href="#stretch-your-limits" id="toc-stretch-your-limits" class="nav-link" data-scroll-target="#stretch-your-limits">Stretch Your Limits</a></li>
+  <li><a href="#joyful-life" id="toc-joyful-life" class="nav-link" data-scroll-target="#joyful-life">Joyful Life</a></li>
+  <li><a href="#the-vicious-cycle" id="toc-the-vicious-cycle" class="nav-link" data-scroll-target="#the-vicious-cycle">The Vicious Cycle</a></li>
+  <li><a href="#discipline" id="toc-discipline" class="nav-link" data-scroll-target="#discipline">Discipline</a></li>
+  <li><a href="#keep-it-simple" id="toc-keep-it-simple" class="nav-link" data-scroll-target="#keep-it-simple">Keep It Simple</a></li>
+  <li><a href="#pay-the-dues" id="toc-pay-the-dues" class="nav-link" data-scroll-target="#pay-the-dues">Pay the Dues</a></li>
+  <li><a href="#take-charge" id="toc-take-charge" class="nav-link" data-scroll-target="#take-charge">Take Charge</a></li>
+  <li><a href="#anger" id="toc-anger" class="nav-link" data-scroll-target="#anger">Anger</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<section id="intention-vs-expectation" class="level2">
+<h2 class="anchored" data-anchor-id="intention-vs-expectation">Intention vs Expectation</h2>
+<p>Intention and expectation are two different animals. Intention is pure, free of the chains of outcome. Expectation drags you into the drama of life, making you a slave to circumstances. Intention is about expression, about channeling your energy into the world. Life is, at its core, an expression of energy.</p>
+</section>
+<section id="well-being" class="level2">
+<h2 class="anchored" data-anchor-id="well-being">Well-being</h2>
+<p>Chasing validation is a psychological trap. The need to be acknowledged and included stems from deep, primal urges. These urges create a dependency that controls us. Awareness is the antidote. By becoming aware of these processes, we achieve true well-being.</p>
+</section>
+<section id="beyond-chatter" class="level2">
+<h2 class="anchored" data-anchor-id="beyond-chatter">Beyond Chatter</h2>
+<p>Our minds are intricate, far too complex to be boxed into a self-image or ego. The secret to capturing the essence of life is simple: stay present. The ego limits you. Beyond the noise of the mind lies a profound experience.</p>
+</section>
+<section id="inner-exploration" class="level2">
+<h2 class="anchored" data-anchor-id="inner-exploration">Inner Exploration</h2>
+<p>We are our minds. Often, our minds run on autopilot, bouncing from thought to thought. Yet, simply observing these thoughts without force calms the mind. Exploring the depths of your own consciousness transforms your perception of life. Missing out on this inner exploration is a true loss.</p>
+</section>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<p>Seek out new experiences. Personal transformation often comes from moments devoid of thought or rationalization. These experiences leave deep impressions that drive change. Curious about travel? Take a trip. Interested in spirituality? Spend a day meditating. Don’t be led by societal norms; explore life grounded in reality.</p>
+</section>
+<section id="on-impermanence" class="level2">
+<h2 class="anchored" data-anchor-id="on-impermanence">On Impermanence</h2>
+<p>Thoughts, feelings, emotions, beliefs change continuously. An appreciation of this fact is needed for a balanced life. Almost nothing of me remained from a decade ago. The contents of my consciousness and body have changed completely. But, there is an element in me that stitches a sense of continuity. The grip of the ephemeral loosens when one becomes aware. Not believe or theorize.</p>
+</section>
+<section id="on-happiness" class="level2">
+<h2 class="anchored" data-anchor-id="on-happiness">On Happiness</h2>
+<p>It all starts with doubting human condition. Why is it that happiness comes after fulfilling a desire and lasts only for a while? So we are bound to hop from a desire to desire, accumulating whatever angst along the way. Can there be joy untethered to desire ? Do we have any control over our desires ?</p>
+</section>
+<section id="on-love" class="level2">
+<h2 class="anchored" data-anchor-id="on-love">On Love</h2>
+<p>We all seem to share a longing to expand. To become more. This drive manifests as a desire for wealth, status, recognition or freedom from all these. Our minds are not satisfied with the boundaries of our physical bodies – there is an element in us that is seeking to be boundless. What is stopping us from loving unconditionally ?</p>
+</section>
+<section id="on-education" class="level2">
+<h2 class="anchored" data-anchor-id="on-education">On Education</h2>
+<p>Education can be so much more. A complete human being, free from the need to compare, capable of love, is rare. Education should enhance our capacity for life. Awareness dissolves the need for external controls like religion or government. Raising collective awareness is the best solution against societal issues.</p>
+</section>
+<section id="stretch-your-limits" class="level2">
+<h2 class="anchored" data-anchor-id="stretch-your-limits">Stretch Your Limits</h2>
+<p>Thought is bound by the past and memory. Belief is thought trapped. The ego is a collection of these beliefs.Ego feeds on the stability of identity. When new thoughts challenge these beliefs, the ego shatters.</p>
+</section>
+<section id="joyful-life" class="level2">
+<h2 class="anchored" data-anchor-id="joyful-life">Joyful Life</h2>
+<p>We have limited time and energy. How we use them is our choice. Awareness of this leads to responsibility, and complete responsibility leads to absolute freedom. When we realize our ability to respond to life, we find joy.</p>
+</section>
+<section id="the-vicious-cycle" class="level2">
+<h2 class="anchored" data-anchor-id="the-vicious-cycle">The Vicious Cycle</h2>
+<p>We Sense the world. And then we associate. We then segregate them into good and bad. Any further perception is limited by these associations.</p>
+</section>
+<section id="discipline" class="level2">
+<h2 class="anchored" data-anchor-id="discipline">Discipline</h2>
+<p>It takes some effort to stick to a regimen. But it’s the only way to transform oneself. A sense of personal growth seems to be very fundamental for a good life. We all have this longing to expand and grow beyond ourselves. Whatever the means one may choose, discipline is the tool.</p>
+</section>
+<section id="keep-it-simple" class="level2">
+<h2 class="anchored" data-anchor-id="keep-it-simple">Keep It Simple</h2>
+<p>Life is simple. When you complicate it, catch yourself. Face reality without escape. Acknowledge feelings and desires without judgment. There’s no rush. Appreciate uncertainty and act accordingly. Forcing reality is futile. Keep it simple.</p>
+</section>
+<section id="pay-the-dues" class="level2">
+<h2 class="anchored" data-anchor-id="pay-the-dues">Pay the Dues</h2>
+<p>Pay attention to your desires and fears. We are complex and often unsure of what we want. Do not buy your desires from the market.It’s uncomfortable. Take your time. Accept this and pay your dues.</p>
+</section>
+<section id="take-charge" class="level2">
+<h2 class="anchored" data-anchor-id="take-charge">Take Charge</h2>
+<p>Imagine. Consciously, not impulsively. Imagine what your ideal life should be like. Imagine freely, the kind of family, the nature of work and the world you would like to live in.Feel it to the bone. Now, do What you should be doing today to move in that direction. You can either live intentionally or succumb to the compulsive desires sold to you. There is always somebody dictating you the norms, selling you their fears and insecurities. Taking charge involves paying enough attention to these superficial desires, so they lose their grip. To connect with your deepest longings, you need to imagine freely and act. The feedback can only come through action. So, it’s better to imagine yourself, take charge and act.</p>
+</section>
+<section id="anger" class="level2">
+<h2 class="anchored" data-anchor-id="anger">Anger</h2>
+<p>Anger is all absorbing. The sensations are unpleasant, often causing more pain to the actor than the recipient. A moment of awareness can settle everything. Practice observing your response to anger non-judgmentally. You can’t be both conscious and angry.</p>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Entrepreneurship,Self-empowerment" data-listing-date-sort="1588654800000" data-listing-file-modified-sort="1718402820079" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1320">
-<div class="thumbnail">
-<p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a></p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">Thoughts on Building Things</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Entrepreneurship'); return false;">
-Entrepreneurship
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">Pointers for the ambitious. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">
-<div class="listing-date">
-May 5, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Self-empowerment" data-listing-date-sort="1588654800000" data-listing-file-modified-sort="1718402722786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="848">
-<div class="thumbnail">
-<p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a></p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">Think on these.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">Intention and expectation are two different animals. Intention is pure, free of the chains of outcome. Expectation drags you into the drama of life, making you a slave to…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">
-<div class="listing-date">
-May 5, 2020
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

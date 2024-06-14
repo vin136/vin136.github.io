@@ -1,6 +1,9 @@
 [
   {
     "listing": "/posts.html",
-    "items": []
+    "items": [
+      "/posts/2020-05-05-On-Building-Things/index.html",
+      "/posts/2020-05-05-Collected-Thoughts/index.html"
+    ]
   }
 ]

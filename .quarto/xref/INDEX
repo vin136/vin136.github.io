@@ -19,5 +19,14 @@
   },
   "posts.qmd": {
     "posts.html": "13ba9ff1"
+  },
+  "posts/2020-05-05-On-Building-Things/index.ipynb": {
+    "index.html": "a5849524"
+  },
+  "posts/2020-05-05-Collected-Thoughts/index.ipynb": {
+    "index.html": "38303b9b"
+  },
+  "home.qmd": {
+    "home.html": "668eb7cf"
   }
 }
