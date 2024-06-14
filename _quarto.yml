@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Vinay Varma"
+  navbar:
+    right:
+      - posts.qmd
+      - href: index.qmd
+        text: Home
+      - text: "ZeroToHero"
+        href: https://neuralnetszerotohero.github.io/
+      
+      
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+

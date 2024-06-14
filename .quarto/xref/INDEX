@@ -1,0 +1,23 @@
+{
+  "index.qmd": {
+    "index.html": "2521ee93"
+  },
+  "about.qmd": {
+    "about.html": "1dba0194"
+  },
+  "ZeroToHero/intro.qmd": {
+    "intro.html": "9e95ccd0"
+  },
+  "ZeroToHero/index.qmd": {
+    "index.html": "770aee6e"
+  },
+  "ZeroToHero/summary.qmd": {
+    "summary.html": "11054eed"
+  },
+  "ZeroToHero/references.qmd": {
+    "references.html": "acbd8873"
+  },
+  "posts.qmd": {
+    "posts.html": "13ba9ff1"
+  }
+}
