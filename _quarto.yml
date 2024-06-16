@@ -6,9 +6,9 @@ website:
   title: "Vinay Varma"
   navbar:
     right:
-      - posts.qmd
       - href: home.qmd
         text: Home
+      - posts.qmd
     left: 
       - text: "Neural Networks: Zero to Hero"
         href: https://neuralnetszerotohero.github.io/
