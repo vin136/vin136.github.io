@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-04-25">
 
-<title>Blog – Vinay Varma</title>
+<title>Psychedelic Experience – Vinay Varma</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,77 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Vinay Varma</span>
     </a>
   </div>
@@ -157,11 +98,11 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./home.html"> 
+    <a class="nav-link" href="../../home.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -173,198 +114,49 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Psychedelic Experience</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Self-empowerment</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 25, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Entrepreneurship">Entrepreneurship <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Self-empowerment">Self-empowerment <span class="quarto-category-count">(5)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Blog</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<p>There was a strong sense of knowing; nothing in my life had I known with such certainty. It started as mild anxiety which I tried to ignore. Then my blanket morphed into dancing animals. I am inside my room with two dark curtains on either side keeping it dark. The lighter one in the middle allows just enough light to make me want to peek outside the window. I couldn’t do that, or it didn’t seem important. I am lying on my bed. I dragged my water bottle, lifted, opened the lid, kept one hand at the top while lifting the bottom. I had to push down with my mouth to make it tilt. I had the strength of a 2-year-old. Suddenly I felt the compulsion to vigorously move my chest back and forth, like possessed by a demon. I was not scared but mildly surprised. This motion though seemed controllable at times was satisfying. Soon accompanied by hysteric laughter, this took a new aura. Psychologically it’s a feeling of being bathed in extraordinary realizations far more than my mind can process. The sheer load of the experience felt like my mind expanding in real-time.</p>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Self-empowerment" data-listing-date-sort="1682398800000" data-listing-file-modified-sort="1718554225111" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<div class="thumbnail">
-<p><a href="./posts/2023-04-25-Psychedelic-experience/index.html" class="no-external"></a></p><a href="./posts/2023-04-25-Psychedelic-experience/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2023-04-25-Psychedelic-experience/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2023-04-25-Psychedelic-experience/index.html" class="no-external">Psychedelic Experience</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2023-04-25-Psychedelic-experience/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2023-04-25-Psychedelic-experience/index.html" class="no-external">There was a strong sense of knowing; nothing in my life had I known with such certainty. It started as mild anxiety which I tried to ignore. Then my blanket morphed into…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2023-04-25-Psychedelic-experience/index.html" class="no-external">
-<div class="listing-date">
-Apr 25, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Self-empowerment" data-listing-date-sort="1599541200000" data-listing-file-modified-sort="1718554507924" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="339">
-<div class="thumbnail">
-<p><a href="./posts/2020-09-08-Accept-your-drives/index.html" class="no-external"></a></p><a href="./posts/2020-09-08-Accept-your-drives/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2020-09-08-Accept-your-drives/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-09-08-Accept-your-drives/index.html" class="no-external">Accept all your drives</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2020-09-08-Accept-your-drives/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2020-09-08-Accept-your-drives/index.html" class="no-external">Acknowledge and accept all human drives. The tension between ‘culturally accepted’ and ‘evolutionarily primed’ behaviors creates unnecessary fatigue and misery. Evolutionary…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-09-08-Accept-your-drives/index.html" class="no-external">
-<div class="listing-date">
-Sep 8, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Entrepreneurship,Self-empowerment" data-listing-date-sort="1588654800000" data-listing-file-modified-sort="1718552401870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1266">
-<div class="thumbnail">
-<p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a></p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">Thoughts on Building Things</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Entrepreneurship'); return false;">
-Entrepreneurship
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">Pointers for the ambitious. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-05-05-On-Building-Things/index.html" class="no-external">
-<div class="listing-date">
-May 5, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Self-empowerment" data-listing-date-sort="1588654800000" data-listing-file-modified-sort="1718402722786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="848">
-<div class="thumbnail">
-<p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a></p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">Think on these.</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">Intention and expectation are two different animals. Intention is pure, free of the chains of outcome. Expectation drags you into the drama of life, making you a slave to…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2020-05-05-Collected-Thoughts/index.html" class="no-external">
-<div class="listing-date">
-May 5, 2020
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Self-empowerment" data-listing-date-sort="1566190800000" data-listing-file-modified-sort="1718553961517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="692">
-<div class="thumbnail">
-<p><a href="./posts/2019-08-19-Action/index.html" class="no-external"></a></p><a href="./posts/2019-08-19-Action/index.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/2019-08-19-Action/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2019-08-19-Action/index.html" class="no-external">Introspection</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2019-08-19-Action/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Self-empowerment'); return false;">
-Self-empowerment
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2019-08-19-Action/index.html" class="no-external">Only tools we are in complete charge are our body, mind. All life happens through them. It pays to think in terms of this simple model. Much of the unnecessary suffering…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2019-08-19-Action/index.html" class="no-external">
-<div class="listing-date">
-Aug 19, 2019
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
