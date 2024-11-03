@@ -1,0 +1,31 @@
+---
+title: "Home"
+image: profile_pic.jpg
+about:
+  template: trestles
+  image-width: 20em
+  image-shape: rounded
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/vinnuvinay008
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/vinayvarma-k/
+    - icon: github
+      text: Github
+      href: https://github.com/vin136
+---
+
+
+:::{#hero-heading}
+
+
+## Bio
+
+I want to understand intelligent systems. Possibly build them. I've worked as a founding Engineer at various startups - from [RL](https://en.wikipedia.org/wiki/Reinforcement_learning) based quant fund to interactive AI assistants.
+
+
+
+:::
+
