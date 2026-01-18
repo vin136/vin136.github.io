@@ -1,41 +1,35 @@
 {
-  "index.qmd": {
-    "index.html": "2521ee93"
-  },
-  "about.qmd": {
-    "about.html": "1dba0194"
-  },
-  "ZeroToHero/intro.qmd": {
-    "intro.html": "9e95ccd0"
-  },
-  "ZeroToHero/index.qmd": {
-    "index.html": "770aee6e"
-  },
-  "ZeroToHero/summary.qmd": {
-    "summary.html": "11054eed"
-  },
-  "ZeroToHero/references.qmd": {
-    "references.html": "acbd8873"
-  },
-  "posts.qmd": {
-    "posts.html": "13ba9ff1"
-  },
-  "posts/2020-05-05-On-Building-Things/index.ipynb": {
-    "index.html": "a5849524"
-  },
-  "posts/2020-05-05-Collected-Thoughts/index.ipynb": {
-    "index.html": "38303b9b"
-  },
-  "home.qmd": {
-    "home.html": "668eb7cf"
-  },
   "posts/2020-09-08-Accept-your-drives/index.ipynb": {
-    "index.html": "1bced30a"
+    "index.html": "aee37a19"
+  },
+  "posts/2024-11-03-Bucket-list/index.ipynb": {
+    "index.html": "fca3b334"
   },
   "posts/2023-04-25-Psychedelic-experience/index.ipynb": {
-    "index.html": "7bc273e1"
+    "index.html": "490938f6"
+  },
+  "posts/2020-05-05-On-Building-Things/index.ipynb": {
+    "index.html": "6c86b63c"
+  },
+  "posts/2020-05-05-Collected-Thoughts/index.ipynb": {
+    "index.html": "9f8e62f0"
   },
   "posts/2019-08-19-Action/index.ipynb": {
-    "index.html": "a789fc25"
+    "index.html": "6e22d61d"
+  },
+  "posts/2024-11-02-Training-LLMs/index.ipynb": {
+    "index.html": "400cc1dd"
+  },
+  "home.qmd": {
+    "home.html": "35f4a33f"
+  },
+  "index.qmd": {
+    "index.html": "9ade693e"
+  },
+  "posts.qmd": {
+    "posts.html": "f059c60b"
+  },
+  "posts/2024-11-06-Python-notes/wip.ipynb": {
+    "wip.html": "f4fe60b4"
   }
 }
