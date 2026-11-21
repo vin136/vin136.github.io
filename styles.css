@@ -142,7 +142,7 @@ main.content {
   margin: 0;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center 34%;
+  object-position: center 38%;
 }
 
 .about-copy {
@@ -297,31 +297,6 @@ main.content {
   text-decoration: none;
 }
 
-.education-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-}
-
-.education-card {
-  min-width: 0;
-  padding: 26px;
-  border: 1px solid var(--profile-line);
-  border-radius: 12px;
-  background: var(--profile-soft);
-  color: var(--profile-muted);
-}
-
-.education-card h3 {
-  margin: 0 0 8px;
-  color: var(--profile-ink);
-  font-size: 1.1rem;
-}
-
-.education-card p:last-child {
-  margin-bottom: 0;
-}
-
 @media (max-width: 720px) {
   .profile-page {
     width: min(100% - 32px, 920px);
@@ -338,8 +313,7 @@ main.content {
 
   .about-grid,
   .experience-item,
-  .publication-card,
-  .education-grid {
+  .publication-card {
     grid-template-columns: minmax(0, 1fr);
   }
 
