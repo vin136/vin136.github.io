@@ -9,16 +9,37 @@
   {
     "objectID": "home.html",
     "href": "home.html",
-    "title": "Home",
+    "title": "Vinay Varma",
     "section": "",
-    "text": "I want to understand intelligent systems. Possibly build them. I’ve worked as a founding Engineer at various startups - from RL based quant fund to interactive AI assistants."
+    "text": "Applied Scientist | Multimodal AI and Foundation Models\n\n\n  X\n\n\n\n\n\n\n\n\n\nI am an Applied Scientist at Amazon Artificial General Intelligence, where I work on multimodal foundation models and the large-scale training systems behind them. I am interested in building intelligent systems that can understand and reason across language, images, video, documents, audio, and other modalities.\nI helped build Amazon Nova Multimodal Embeddings and contributed to the training infrastructure for the Amazon Nova family of models. Previously, I worked as a founding machine learning engineer on interactive AI assistants and on deep reinforcement learning for quantitative trading.\nMy broader interests include representation learning, distributed model training, multimodal retrieval, evaluation, and the systems needed to turn research into useful products.\n\n\n\n\n\n\n\n\n\nApplied Scientist\nAugust 2024 - Present\n\n\n\nLed engineering work for Amazon Nova Multimodal Embeddings, a unified model for agentic RAG and semantic search across five modalities.\nBuilt distributed data and training infrastructure for Amazon Nova foundation models, including topology-agnostic pipelines for elastic training.\nDeveloped evaluation and decision-making frameworks for multimodal training experiments across text, vision, and audio.\n\n\n\n\n\n\nFounding ML Engineer\nMarch 2024 - August 2024\n\n\n\nBuilt low-latency conversational AI systems using fine-tuned language models, retrieval, and agentic workflows.\nDesigned synthetic conversation generation and multi-round evaluation systems for tool use, long context, and regression testing.\nOptimized inference pipelines to reach human-speed conversational response times.\n\n\n\n\n\n\nData Scientist\nAugust 2023 - February 2024\n\n\n\nStarted the machine learning effort for device failure prediction on terabyte-scale operational data.\nManaged the end-to-end lifecycle across data pipelines, experimentation, deployment, and model monitoring.\n\n\n\n\n\n\nMachine Learning Engineer\nJanuary 2018 - August 2021\n\n\n\nDesigned and deployed deep reinforcement learning systems for quantitative trading strategies.\nDeveloped uncertainty quantification methods to improve the robustness of trading signals.\nBuilt data, feature engineering, monitoring, and continual learning infrastructure for production models.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmazon Artificial General Intelligence Amazon Technical Reports, 2025\nNova Multimodal Embeddings maps text, images, video, documents, and audio into a single embedding space for cross-modal retrieval, semantic search, and agentic RAG.\nAmazon Science\n\n\n\n\n\n\n\n\nAmazon Artificial General Intelligence Amazon Technical Reports, 2024\nThe Amazon Nova family introduces multimodal and text foundation models designed for strong intelligence, speed, cost efficiency, and practical deployment on Amazon Bedrock.\nAmazon Science\n\n\n\n\n\n\n\n\n\nM.S. in Computer Science 2021 - 2023\nPart-time lecturer for Machine Learning Principles and instructor for numerical analysis recitations.\n\n\n\nB.Tech. in Electronics and Communication Engineering 2014 - 2018\n\n\n\nI am always happy to connect with researchers and builders working on ambitious AI systems.\nLinkedIn · GitHub · Blog"
   },
   {
-    "objectID": "home.html#bio",
-    "href": "home.html#bio",
-    "title": "Home",
+    "objectID": "home.html#about-me",
+    "href": "home.html#about-me",
+    "title": "Vinay Varma",
     "section": "",
-    "text": "I want to understand intelligent systems. Possibly build them. I’ve worked as a founding Engineer at various startups - from RL based quant fund to interactive AI assistants."
+    "text": "I am an Applied Scientist at Amazon Artificial General Intelligence, where I work on multimodal foundation models and the large-scale training systems behind them. I am interested in building intelligent systems that can understand and reason across language, images, video, documents, audio, and other modalities.\nI helped build Amazon Nova Multimodal Embeddings and contributed to the training infrastructure for the Amazon Nova family of models. Previously, I worked as a founding machine learning engineer on interactive AI assistants and on deep reinforcement learning for quantitative trading.\nMy broader interests include representation learning, distributed model training, multimodal retrieval, evaluation, and the systems needed to turn research into useful products."
+  },
+  {
+    "objectID": "home.html#experience",
+    "href": "home.html#experience",
+    "title": "Vinay Varma",
+    "section": "",
+    "text": "Applied Scientist\nAugust 2024 - Present\n\n\n\nLed engineering work for Amazon Nova Multimodal Embeddings, a unified model for agentic RAG and semantic search across five modalities.\nBuilt distributed data and training infrastructure for Amazon Nova foundation models, including topology-agnostic pipelines for elastic training.\nDeveloped evaluation and decision-making frameworks for multimodal training experiments across text, vision, and audio.\n\n\n\n\n\n\nFounding ML Engineer\nMarch 2024 - August 2024\n\n\n\nBuilt low-latency conversational AI systems using fine-tuned language models, retrieval, and agentic workflows.\nDesigned synthetic conversation generation and multi-round evaluation systems for tool use, long context, and regression testing.\nOptimized inference pipelines to reach human-speed conversational response times.\n\n\n\n\n\n\nData Scientist\nAugust 2023 - February 2024\n\n\n\nStarted the machine learning effort for device failure prediction on terabyte-scale operational data.\nManaged the end-to-end lifecycle across data pipelines, experimentation, deployment, and model monitoring.\n\n\n\n\n\n\nMachine Learning Engineer\nJanuary 2018 - August 2021\n\n\n\nDesigned and deployed deep reinforcement learning systems for quantitative trading strategies.\nDeveloped uncertainty quantification methods to improve the robustness of trading signals.\nBuilt data, feature engineering, monitoring, and continual learning infrastructure for production models."
+  },
+  {
+    "objectID": "home.html#selected-publications",
+    "href": "home.html#selected-publications",
+    "title": "Vinay Varma",
+    "section": "",
+    "text": "Amazon Artificial General Intelligence Amazon Technical Reports, 2025\nNova Multimodal Embeddings maps text, images, video, documents, and audio into a single embedding space for cross-modal retrieval, semantic search, and agentic RAG.\nAmazon Science\n\n\n\n\n\n\n\n\nAmazon Artificial General Intelligence Amazon Technical Reports, 2024\nThe Amazon Nova family introduces multimodal and text foundation models designed for strong intelligence, speed, cost efficiency, and practical deployment on Amazon Bedrock.\nAmazon Science"
+  },
+  {
+    "objectID": "home.html#education",
+    "href": "home.html#education",
+    "title": "Vinay Varma",
+    "section": "",
+    "text": "M.S. in Computer Science 2021 - 2023\nPart-time lecturer for Machine Learning Principles and instructor for numerical analysis recitations.\n\n\n\nB.Tech. in Electronics and Communication Engineering 2014 - 2018\n\n\n\nI am always happy to connect with researchers and builders working on ambitious AI systems.\nLinkedIn · GitHub · Blog"
   },
   {
     "objectID": "posts/2019-08-19-Action/index.html",
