@@ -32,11 +32,11 @@ title-block-banner: false
 :::
 
 ::: {.about-copy}
-I am an **Applied Scientist at Amazon Prime Video**, where I work on foundation models.
+I am an **Applied Scientist at Amazon Prime Video**, where I work on foundation models for recommender systems.
 
-Previously, I was at **Amazon Artificial General Intelligence**, where I led research engineering for multimodal pre-training, post-training, and evaluation. I led the design, end-to-end training, and evaluation of **Amazon Nova Multimodal Embeddings**, and led research engineering for training and evaluating Nova vision encoders.
+Previously, at **Amazon Artificial General Intelligence**, I was the research engineering lead for **Amazon Nova Multimodal Embeddings**. I built distributed training and data-loading systems, implemented core pieces of the multimodal training stack, and co-designed and trained Nova vision encoders.
 
-Earlier, I built low-latency conversational AI systems at Vox AI, device-failure prediction systems at Charter Communications, and production deep reinforcement learning systems for quantitative trading at Niveshi.
+Earlier, I built low-latency conversational AI systems at Vox AI and production deep reinforcement learning systems for quantitative trading at Niveshi.
 :::
 :::
 
@@ -52,7 +52,7 @@ May 2026 - Present
 :::
 
 ::: {.experience-details}
-- Build and evaluate foundation models for Prime Video.
+- Build foundation models for recommender systems at Prime Video.
 :::
 :::
 
@@ -65,9 +65,10 @@ August 2024 - May 2026
 :::
 
 ::: {.experience-details}
-- Research engineering lead for pre-training, post-training, and evaluation of [Amazon Nova multimodal models](https://aws.amazon.com/nova/models/), with a focus on scaling multimodal understanding.
-- Led the design, end-to-end training, and evaluation of [Amazon Nova Multimodal Embeddings](https://aws.amazon.com/blogs/aws/amazon-nova-multimodal-embeddings-now-available-in-amazon-bedrock/).
-- Led research engineering for training and evaluating Nova vision encoder models.
+- Research engineering lead for [Amazon Nova Multimodal Embeddings](https://aws.amazon.com/blogs/aws/amazon-nova-multimodal-embeddings-now-available-in-amazon-bedrock/), owning its implementation and distributed training across text, images, video, documents, and audio.
+- Designed and built an elastic data loader that resumes training across changes in data parallelism and replaced the earlier training pipeline.
+- Implemented model and training components across tensor parallelism, sequence parallelism, multi-objective training, and checkpoint loading for [Amazon Nova multimodal models](https://aws.amazon.com/nova/models/).
+- Co-designed and trained Nova vision encoders for image and video understanding.
 :::
 :::
 
@@ -109,11 +110,12 @@ January 2018 - August 2021
 :::
 
 ::: {.experience-details}
-- Designed and deployed deep reinforcement learning systems for quantitative trading strategies.
-- Developed uncertainty quantification methods to improve the robustness of trading signals.
-- Built data, feature engineering, monitoring, and continual learning infrastructure for production models.
+- Designed the deep reinforcement learning system end to end, including environments, objectives, architectures, and metrics for quantitative trading.
+- Reframed the sparse reinforcement learning objective as multi-task learning to improve robustness across asset classes.
+- Deployed deep ensembles for uncertainty estimation, reducing false-positive trades by 80%.
 :::
 :::
+
 :::
 
 ## Selected Publications
@@ -150,6 +152,23 @@ Amazon Technical Reports, 2024
 The Amazon Nova family introduces multimodal and text foundation models designed for strong intelligence, speed, cost efficiency, and practical deployment on Amazon Bedrock.
 
 [Amazon Science](https://www.amazon.science/publications/the-amazon-nova-family-of-models-technical-report-and-model-card){.publication-link}
+:::
+:::
+
+::: {.publication-card}
+::: {.publication-image-wrap}
+![](assets/publications/feature-selection.png){.publication-image .publication-image-paper alt="First page of Embedded Methods for Feature Selection in Neural Networks"}
+:::
+
+::: {.publication-copy}
+### Embedded Methods for Feature Selection in Neural Networks
+
+**Vinay Varma K.**<br>
+arXiv, 2020
+
+Introduces two feature-selection methods integrated directly into neural network training: sequential weight pruning through a drop-in layer and a sensitivity-based approach.
+
+[arXiv](https://arxiv.org/abs/2010.05834){.publication-link}
 :::
 :::
 :::

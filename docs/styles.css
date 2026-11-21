@@ -241,6 +241,10 @@ main.content {
   transition: transform 240ms ease;
 }
 
+.publication-image-paper {
+  object-position: top center;
+}
+
 .publication-card:hover .publication-image {
   transform: scale(1.025);
 }
