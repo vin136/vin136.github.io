@@ -14,7 +14,7 @@ title-block-banner: false
 ::: {.profile-identity}
 # Vinay Varma
 
-**Applied Scientist | Foundation Models**
+**Applied Scientist | Distributed Training and Foundation Models**
 :::
 
 ::: {.profile-links}
@@ -32,9 +32,9 @@ title-block-banner: false
 :::
 
 ::: {.about-copy}
-I am an **Applied Scientist at Amazon Prime Video**, where I work on foundation models for recommender systems.
+I build foundation-model systems. At **Amazon Prime Video**, I work on foundation models for recommender systems.
 
-Previously, at **Amazon Artificial General Intelligence**, I was the research engineering lead for **Amazon Nova Multimodal Embeddings**. I built distributed training and data-loading systems, implemented core pieces of the multimodal training stack, and co-designed and trained Nova vision encoders.
+Previously, at **Amazon Artificial General Intelligence**, I was the research engineering lead for **Amazon Nova Multimodal Embeddings**. I owned its distributed implementation across elastic data loading, model-parallel training, and multimodal training components. I also co-designed and trained Nova vision encoders.
 
 Earlier, I built low-latency conversational AI systems at Vox AI and production deep reinforcement learning systems for quantitative trading at Niveshi.
 :::
