@@ -1,0 +1,69 @@
+---
+title: "Notes on Building Things"
+description: "Observations on attention, routine, risk, and making."
+date: 2020-05-05
+---
+
+## Start before certainty
+
+Successful outcomes are easy to explain backward. We see skill and effort because they are visible. Luck disappears into the story.
+
+Starting early does not defeat luck. It buys more attempts. More attempts mean more failures one can survive and more chances to notice what works. Time is not just a resource; it is sample size.
+
+## Intensity is trainable
+
+Absorption is not merely a personality trait. A craft, practiced without interruption, makes sustained attention easier to enter. Repetition builds familiarity with the state itself: how to begin, how to stay, and how to return after distraction.
+
+The useful skill is not permanent intensity. It is the ability to direct intensity when the work requires it.
+
+## Approval is expensive
+
+When work requires approval from everyone around me, quality becomes secondary. The objective quietly changes from making something good to avoiding disagreement.
+
+Disagreement need not be hostile. It means refusing to outsource decisions that determine the shape of my work or life.
+
+## Build a system small enough to repeat
+
+Large goals are global objectives. Days are local updates. A routine connects the two.
+
+If the daily update is too large, an ordinary interruption breaks the system. A smaller commitment produces less progress today but survives more days. Its advantage appears only after accumulation.
+
+Consistency and ambition are not opposites. Ambition chooses the direction. Consistency keeps applying the update.
+
+## Find the constraint
+
+Complex projects do not advance evenly. Usually one unresolved problem blocks the rest. Doing ten available tasks can feel productive while leaving that constraint untouched.
+
+The useful question is not “What can I finish today?” It is “What is preventing the project from moving?” Breaking that problem into a task small enough for one day is often the real work.
+
+## Work close to feedback
+
+A salary is not the problem. Distance from feedback can be. Work becomes dull when action is separated from consequence and nothing accumulates: not skill, ownership, judgment, or leverage.
+
+Startups are not automatically better, nor are large organizations automatically worse. The better questions are: How quickly can I see what my work changed? Am I learning something scarce? Does the value I create compound beyond the hours I spend?
+
+## Choose the environment
+
+Part of luck is exposure. A place changes the people one meets, the problems one sees, and the standards that feel normal.
+
+Discomfort is useful when it reveals a limit. It is not useful merely because it hurts. The right environment makes complacency difficult without making sustained work impossible.
+
+## Treat fear as a noisy signal
+
+Fear is neither a command nor an enemy. It is a noisy risk detector. When it appears, I can ask what failure it predicts, how likely that failure is, and whether the downside can be reduced.
+
+Sometimes the signal identifies a real flaw. Sometimes it protects the familiar. The task is to tell the two apart.
+
+## Ideas need not be original
+
+Two reliable sources of ideas are problems I repeatedly face and solutions that work elsewhere.
+
+The first comes with evidence: I know the problem exists. A useful test is whether I would pay for a solution. The second is a form of pattern matching. A model that works in one industry or country may work under different constraints after adaptation.
+
+Copying the surface is easy. Understanding the mechanism is the creative part.
+
+## Attention reveals the objective
+
+Attention is finite. News, messages, work, and entertainment continually bid for it. The things that repeatedly win become my objective function in practice, regardless of what I claim to value.
+
+When my stated goals and observed attention disagree, my behavior is the more accurate description.

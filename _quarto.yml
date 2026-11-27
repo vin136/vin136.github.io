@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
 
 website:
   title: "Vinay Varma"
@@ -9,7 +12,9 @@ website:
       - href: home.qmd
         text: Home
       - href: posts.qmd
-        text: Notes
+        text: Chain of Thought
+      - href: essays.qmd
+        text: Essays
 format:
   html:
     theme: 
@@ -21,4 +26,3 @@ format:
 resources:
   - CNAME
   - profile_pic.jpg
-

@@ -1,0 +1,31 @@
+---
+pagetitle: "Essays | Vinay Varma"
+description: "Developed, standalone writing by Vinay Varma."
+toc: false
+page-layout: full
+---
+
+::: {.essays-page}
+
+::: {.essays-index}
+::: {.essays-label}
+Essays / 00
+:::
+
+# Essays
+
+::: {.essays-rule aria-hidden="true"}
+:::
+
+::: {.essays-empty}
+## Nothing published yet.
+
+This section is for developed, standalone pieces. Shorter and unfinished ideas live in [Chain of Thought](posts.html).
+:::
+:::
+
+::: {.essays-footer}
+Longer arguments, worked through.
+:::
+
+:::
