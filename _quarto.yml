@@ -8,7 +8,8 @@ website:
     right:
       - href: home.qmd
         text: Home
-      - posts.qmd
+      - href: posts.qmd
+        text: Notes
 format:
   html:
     theme: 
@@ -19,6 +20,5 @@ format:
 
 resources:
   - CNAME
-
-
+  - profile_pic.jpg
 
